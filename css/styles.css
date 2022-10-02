@@ -1,0 +1,255 @@
+:root {
+--primary-text-color: #212121;
+--secondary-color: #757575;
+--accent-color: #2196F3;
+--wite-color: #FFFFFF;
+--logo-color:#000000;
+--background-color: #F5F5F5;
+--background-secondary-color:#2F303A;
+--background-button:#F5F4FA;
+--background-button-hover:#188CE8;
+--color-address:rgba(255, 255, 255, 0.6);
+
+}
+
+body {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    background-color: var(--wite-color);
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* header */
+
+.logo {
+    color: var(--logo-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+}
+
+.logo-wrap {
+    color: var(--accent-color);
+}
+
+.nav-link {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-link {
+    color: var(--secondary-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero-title {
+    color: var(--wite-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+}
+
+.hero {
+    background-color:var(--background-secondary-color);
+}
+
+.button {
+    color: var(--wite-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: var(--accent-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: var(--background-button-hover);
+}
+
+/* features */
+
+.features {
+    background: var(--wite-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features-text {
+    color: var(--secondary-color);
+    line-height: 1.71x;
+
+}
+
+
+/* services */
+
+.services {
+    background:var(--wite-color)
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* section-team */
+
+.team {
+    background: var(--background-color);
+}
+
+.team-card {
+background: var(--wite-color)
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-text {
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* footer */
+
+.footer {
+    background: #2F303A;
+}
+
+.logo-footer {
+    color: var(--wite-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+}
+
+.physikal-address {
+    color: var(--wite-color);
+    font-style: normal;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.physikal-address:hover,
+.physikal-address:focus {
+    color: var(--accent-color);
+}
+
+.address-footer {
+    color: var(--color-address);
+    font-style: normal;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.address-footer:hover,
+.address-footer:focus {
+    color: var(--accent-color);
+}
+
+
+/* portfolio */
+
+.portfolio-button {
+color: var(--primary-text-color);
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+background: var(--background-button);
+border-radius: 4px;
+cursor: pointer;
+
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--wite-color);
+    background-color: var(--accent-color);
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.88;
+    
+}
+
